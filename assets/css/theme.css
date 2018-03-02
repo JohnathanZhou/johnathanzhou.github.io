@@ -50,6 +50,14 @@ Table of Contents:
 
 	img { max-width: 100%; height: auto; -webkit-backface-visibility: hidden;}
 
+	.mobilephoto img{
+		height: 80px; 
+		float: right; 
+		margin-right: 5%; 
+		box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1); 
+		border-radius: 5px;
+	}
+
 /* ----------------------------------------------------------------------------- */
 /* --- 2. BASIC
 /* ----------------------------------------------------------------------------- */
@@ -442,14 +450,7 @@ Table of Contents:
 	/* Photo */
 	.header-vertical #header .photo { margin-bottom: 10px; }
 
-	#mobilephoto {
-		height: 80px; 
-		float: right; 
-		margin-right: 5%; 
-		box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1); 
-		border-radius: 5px
-	}
-
+	
 	/* Logo */
 	.header-vertical .logo { text-align: right; padding: 90px 30px; margin-bottom: 10px; }
 	.header-vertical .logo .name { margin-bottom: 5px; font-size: 46px; line-height: 1;  }
@@ -556,6 +557,9 @@ Table of Contents:
 	/* Photo */
 	.header-horizontal #header .photo { height: 100%; display: inline-block; line-height: 1; }
 	.header-horizontal #header .photo img { height: 100%; }
+
+
+
 
 	/* Logo */
 	.header-horizontal .logo {display: inline-block; text-align: right; padding: 9px 30px; min-width: 230px; height: 88px; line-height: 1 !important; }
@@ -2292,9 +2296,11 @@ Table of Contents:
 	}
 
 	@media only screen and (max-width: 699px) {
-		#mobilephoto {
+		
+		.mobilephoto {
 			height: 70px;
 		}
+
 	}
 
 	@media only screen and (max-height: 500px) {
