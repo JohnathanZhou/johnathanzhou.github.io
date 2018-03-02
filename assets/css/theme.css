@@ -1291,6 +1291,10 @@ Table of Contents:
 		-o-transition: all 0.2s ease-in-out;
 	}
 
+	.btn .res {
+		color: black;
+	}
+
 	.btn > * {
 		display: inline-block;
 		transition: all 0.2s ease-in-out;
