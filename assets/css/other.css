@@ -1,0 +1,76 @@
+@import 'compass';
+
+.rainbow {
+    /* text-decoration: underline; */
+    font-weight: bold;
+}
+
+.rainbow:hover {
+    background-image:-webkit-gradient(linear,left top,right top,color-stop(0,#ff4c7c),color-stop(50%,#09f),color-stop(80%,#99cb33));
+    background-image:
+      gradient(linear,left top,right        top,color-stop(0,#f22),color-stop(.15,#f2f),color-stop(.3,#22f),color-stop(.45,#2ff),color-stop(.6,#2f2),color-stop(.75,#2f2),color-stop(.9,#ff2),color-stop(1,#f22));
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-decoration: underline;
+  }
+
+.blu {
+    color: #40739e
+}
+
+/* a:hover {
+    background-image:-webkit-gradient(linear,left top,right top,color-stop(0,#ff4c7c),color-stop(50%,#09f),color-stop(80%,#99cb33));
+    background-image:
+      gradient(linear,left top,right        top,color-stop(0,#f22),color-stop(.15,#f2f),color-stop(.3,#22f),color-stop(.45,#2ff),color-stop(.6,#2f2),color-stop(.75,#2f2),color-stop(.9,#ff2),color-stop(1,#f22));
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-decoration: underline;
+} */
+
+/* butterfly stuff */
+.svg-wrapper {
+    height: 60px;
+      margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 320px;
+  }
+  
+  .shape {
+    fill: transparent;
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 8px;
+    stroke: #19f6e8;
+  }
+  
+  .text {
+    color: black;
+    font-family: 'Roboto Condensed';
+    font-size: 22px;
+    letter-spacing: 8px;
+    line-height: 32px;
+    position: relative;
+    top: -48px;
+  }
+  
+  @keyframes draw {
+    0% {
+      stroke-dasharray: 140 540;
+      stroke-dashoffset: -474;
+      stroke-width: 8px;
+    }
+    100% {
+      stroke-dasharray: 760;
+      stroke-dashoffset: 0;
+      stroke-width: 2px;
+    }
+  }
+  
+  .svg-wrapper:hover .shape {
+    -webkit-animation: 0.5s draw linear forwards;
+    animation: 0.5s draw linear forwards;
+  }
