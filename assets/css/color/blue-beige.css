@@ -36,7 +36,13 @@ a:hover, a:focus,
 .text-secondary,
 .btn-secondary:hover, .btn-secondary:focus,
 .icon-secondary.icon-hover:hover, .icon-secondary.icon-hover:focus {
-	color: #013243;
+	background-image:-webkit-gradient(linear,left top,right top,color-stop(0,#ff4c7c),color-stop(50%,#09f),color-stop(80%,#99cb33));
+    background-image:
+      gradient(linear,left top,right        top,color-stop(0,#f22),color-stop(.15,#f2f),color-stop(.3,#22f),color-stop(.45,#2ff),color-stop(.6,#2f2),color-stop(.75,#2f2),color-stop(.9,#ff2),color-stop(1,#f22));
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-decoration: underline;
 }
 
 .bg-secondary,
