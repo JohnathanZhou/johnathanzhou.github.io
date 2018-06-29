@@ -7,7 +7,7 @@ a:hover, a:focus,
 #messenger-toggle,
 .btn-primary:hover, .btn-primary:focus,
 .icon-primary.icon-hover:hover, .icon-primary.icon-hover:focus {
-	color: #4183D7;
+	color: #198BFE;
 }
 
 .bg-primary,
@@ -28,7 +28,7 @@ a:hover, a:focus,
 .nav-panels > li.active > a, .nav-panels > li.active > a:focus, .nav-panels > li.active > a:hover,
 #ajax-loader:before,
 .owl-pagination .owl-page.active > span {
-	background-color: #4183D7;
+	background-color: #198BFE;
 }
 
 /* Secondary */
@@ -50,7 +50,7 @@ a:hover, a:focus,
 .icon-circle.icon-secondary,
 .progress-bar-secondary,
 .te-secondary:before {
-	background-color: #013243;
+	background-color: #1e3799;
 }
 
 /* Tertiary */
@@ -58,7 +58,7 @@ a:hover, a:focus,
 .text-tertiary,
 .btn-tertiary:hover, .btn-tertiary:focus,
 .icon-tertiary.icon-hover:hover, .icon-tertiary.icon-hover:focus {
-	color: #1F3A93;
+	color: #1a19fe;
 }
 
 .bg-tertiary,
@@ -66,5 +66,5 @@ a:hover, a:focus,
 .icon-circle.icon-tertiary,
 .progress-bar-tertiary,
 .te-tertiary:before {
-	background-color: #1F3A93;
+	background-color: #636e72;
 }
