@@ -1,0 +1,77 @@
+@keyframes fadein {
+    from {
+        opacity: 0;
+        transform: translateY(20px)
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+  }
+  
+
+.higher {
+    margin-top: -8px;
+}
+
+.page-icon {
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid #d7dadc; 
+}
+
+.page-icon a{
+    text-decoration: none;
+    color: #b5bab7;
+    font-size: 1.05rem;
+}
+
+.page-icon a:hover {
+    color: #3e4950;
+}
+
+.page-company {
+    animation: fadein .5s both;
+    animation-delay: .1s;
+    margin-top: 6%;
+    font-size: 1.8rem;
+    color: #39464f;
+    font-weight: bold;
+}
+
+.page-role {
+    animation: fadein .5s both;
+    animation-delay: .2s;
+    margin-top: 1%;
+    color: #8a9197;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.page-image {
+    margin-top: 4%;
+    animation: fadein .5s both;
+    animation-delay: .3s;
+}
+
+.section a {
+    text-decoration: none;
+}
+
+.page-about p{
+    animation: fadein .5s both;
+    animation-delay: .6s;
+    margin-top: 5%;
+    color: #4c5963;
+    font-size: 17px;
+    font-weight: 300;
+  }
+
+.page-link {
+    color: #4c5963;
+    border-bottom: 1px solid #b5bab7
+}
+
+.page-link:hover {
+    border-bottom: 2px solid #4c5963
+}
+
