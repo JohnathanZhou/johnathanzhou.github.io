@@ -141,7 +141,9 @@ footer {
   flex-wrap: wrap;
 }
 
-.row1 a {
+
+
+a {
   text-decoration: none;
 }
 
@@ -152,6 +154,7 @@ footer {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 
 .bigBox {
   flex: 1;
