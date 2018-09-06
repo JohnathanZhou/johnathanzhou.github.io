@@ -243,6 +243,7 @@ a {
 
 .empty {
   border: none;
+  flex: 1;
 }
 
 .links {
