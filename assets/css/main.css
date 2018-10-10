@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Barlow:400,900|Roboto+Mono:500,900|Muli|Fira+Sans:300,400,500,900|Lato:300,400,500,900);
+
+
 @keyframes fadein {
   from {
       opacity: 0;
@@ -29,7 +32,7 @@ footer {
 .main {
   margin-top: 2%;
   width: 100vw;
-  font-family: 'Fira Sans', 'sans-serif';
+  font-family: 'Lato', 'sans-serif';
   display: flex;
   justify-content: center;
 }
@@ -92,14 +95,14 @@ footer {
 }
 
 .upperRight .active {
-  font-weight: bold;
+  font-weight: 500;
   color: #243144;
 }
 
 .upperRight li:hover {
   color: #243144;
   border-bottom: 1px solid #243144;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .about {
@@ -119,8 +122,8 @@ footer {
 .experience {
   margin-top: 5%;
   font-size: 20px;
-  font-family: "Muli", "sans-serif";
-  font-weight: 900;
+  font-family: "Lato", "sans-serif";
+  font-weight: 500;
   color: #39464f;
   animation: fadein .5s both;
   animation-delay: .5s;
@@ -129,7 +132,7 @@ footer {
 .exp-head {
   margin-top: 15px;
   font-size: 17px;
-  font-weight: 900;
+  font-weight: 500;
   color: #39464f
 }
 
@@ -397,7 +400,7 @@ img {
 .link-blue {
   color: rgb(41, 135, 210); 
   display: inline-block;
-  font-weight: 900;
+  font-weight: 500;
   position: relative;
   text-decoration: none
 }
@@ -444,7 +447,7 @@ img {
 .link-yellow {
   color: rgb(248, 179, 49);
   display: inline-block;
-  font-weight: 900;
+  font-weight: 500;
   position: relative;
   text-decoration: none
 }
@@ -491,7 +494,7 @@ img {
 .link-orange {
   color: rgb(243, 125, 34);
   display: inline-block;
-  font-weight: 900;
+  font-weight: 500;
   position: relative;
   text-decoration: none
 }
@@ -538,7 +541,7 @@ img {
 .link-nova {
   color: rgb(157, 214, 221);
   display: inline-block;
-  font-weight: 900;
+  font-weight: 500;
   position: relative;
   text-decoration: none
 }
@@ -582,7 +585,21 @@ img {
   transition: all 0s ease
 }
 
+p .resume:after{
+  content:"";
+  position:absolute;
+  bottom:-2px;
+  left:0%;
+  width: 0;
+  height: 2px;
+  background-color:#368EF5;
+  transform-origin:left;
+  transition:width 0.25s ease;
+}
 
+p .resume:hover::after{
+  width:100%;
+}
 
 /* Media queries */
 @media (min-width: 800px) {
@@ -614,6 +631,12 @@ img {
 
   .about p{
     font-size: 14px;
+  }
+
+  .about p a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: inherit;
   }
 
   .section {
