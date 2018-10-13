@@ -83,10 +83,11 @@ footer {
   display: flex;
   list-style-type: none;
   color: grey;
+  margin-right: 2%;
 }
 
-.upperRight li a {
-  margin-left: 30px;
+#home{
+  margin-right: 30px;
 }
 
 .upperRight li a {
@@ -100,7 +101,6 @@ footer {
   color: inherit;
   text-decoration: none;
   font-size: 19px;
-  /* font-family: "Fira Sans", "sans-serif";  */
 }
 
 .upperRight li a::after  {
@@ -732,7 +732,11 @@ img {
   
   .upperRight li a{
     font-size: 0.85rem;
-    margin-left: 10px;
+    
+  }
+
+  #home {
+    margin-right: 10px;
   }
 
   .links li a {
@@ -795,9 +799,16 @@ img {
     font-size: 24px
   }
   
+  .upperRight {
+    margin-right: 6%;
+  }
+  
   .upperRight li a{
     font-size: 0.8rem;
-    margin-left: 10px;
+  }
+
+  #home {
+    margin-right: 10px;
   }
 
   .section {
