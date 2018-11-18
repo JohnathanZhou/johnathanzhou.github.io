@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Muli|Lato:300,400,500,900|Avenir);
+@import url(https://fonts.googleapis.com/css?family=Muli:900|Lato:300,400,500,900|Avenir);
 
 
 
@@ -36,6 +36,7 @@ footer {
   margin-top: 2%;
   width: 100vw;
   font-family: 'Lato', 'Avenir' 'sans-serif';
+  font-weight: 400;
   display: flex;
   justify-content: center;
 }
@@ -346,7 +347,8 @@ a {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  font-family: "Lato", "Avenir" "sans-serif"
+  font-family: "Lato", "Avenir" "sans-serif";
+  font-weight: 400;
 }
 
 .links li {
