@@ -34,7 +34,7 @@ footer {
 
 .main {
   margin-top: 2%;
-  width: 100vw;
+  width: 99vw;
   font-family: 'Lato', 'Avenir', 'sans-serif';
   font-weight: 400;
   font-style: initial;
@@ -61,7 +61,7 @@ footer {
   display: inline-block;
   font-size: 35px;
   font-weight: 600;
-  font-family: "Muli", "sans-serif";
+  font-family: "Muli", "Avenir", "sans-serif";
   font-style: inherit;
   background: #56CCF2;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  
