@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Muli:900|Lato:300,400,500,900|Avenir);
+@import url(https://fonts.googleapis.com/css?family=Muli|Lato:300,400,500,900|Avenir);
 
 
 
@@ -35,9 +35,9 @@ footer {
 .main {
   margin-top: 2%;
   width: 100vw;
-  font-family: 'Lato', 'Avenir' 'sans-serif';
+  font-family: 'Lato', 'Avenir', 'sans-serif';
   font-weight: 400;
-  font-style: inherit;
+  font-style: initial;
   display: flex;
   justify-content: center;
 }
@@ -93,6 +93,7 @@ footer {
   position: relative;
   font-weight: 300;
   font-family: "Avenir", "sans-serif";
+  font-style: initial;
 }
 
 .upperRight a {
@@ -179,7 +180,7 @@ footer {
   font-size: 22px;
   font-family: "Lato", "Avenir", "sans-serif";
   font-weight: 500;
-  font-style: inherit;
+  font-style: initial;
   color: #39464f;
   animation: fadein .5s both;
   animation-delay: .5s;
@@ -350,9 +351,9 @@ a {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  font-family: "Lato", "Avenir" "sans-serif";
+  font-family: "Lato", "Avenir", "sans-serif";
   font-weight: 400;
-  font-style: inherit;
+  font-style: initial;
 }
 
 .links li {
@@ -363,7 +364,7 @@ a {
 
 .links li:hover {
   /* border-bottom: 1px solid grey; */
-  color: black;
+  color: #243144;
 }
 
 .links li a {
