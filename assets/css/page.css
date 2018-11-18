@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Barlow:400,900|Roboto+Mono:500,900|Muli|Fira+Sans:300,400,500,900|Lato:300,400,500,900);
+@import url(https://fonts.googleapis.com/css?family=Barlow:400,900|Roboto+Mono:500,900|Muli|Fira+Sans:300,400,500,900|Avenir:400,600,900);
 
 @keyframes fadein {
     from {
@@ -40,7 +40,8 @@
     font-size: 1.8rem;
     color: #39464f;
     font-weight: 900;
-    font-family: "Muli", "sans-serif";
+    font-family: "Muli", "Avenir", "sans-serif";
+    font-style: initial;
 }
 
 .page-role {

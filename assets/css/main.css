@@ -61,8 +61,8 @@ footer {
   display: inline-block;
   font-size: 35px;
   font-weight: 600;
-  font-family: "Muli", "Avenir", "sans-serif";
-  font-style: inherit;
+  font-family: 'Muli', 'Avenir', 'sans-serif';
+  font-style: initial;
   background: #56CCF2;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  
   /* Chrome 10-25, Safari 5.1-6 */
